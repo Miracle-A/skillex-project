@@ -1,0 +1,523 @@
+*{
+	box-sizing: border-box;
+}
+body{
+width: 100%;
+height: auto;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Open Sans', sans-serif;
+margin: 0px;
+}
+
+#overallwrapper{
+width: 100%;
+
+}
+
+.genpad{
+padding-left:5%;
+padding-right:5%;
+}
+
+#header{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	padding-top: 20px;
+	background-color: #fff;
+	padding-bottom: 20px;
+	z-index: 1000000000000000000;
+}
+
+#logo{
+	font-size: xx-large;
+	width: 20%;
+}
+
+#menuheader{
+	width: 40%;
+    height: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+}
+#autheader{
+	width: 20%;
+    height: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
+}
+#login{
+
+}
+
+#freetrial{
+	padding: 10px 50px;
+    border-radius: 100px;
+    background-color: black;
+    color: aliceblue;
+}
+.flexone{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.flextwo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+#findpassion{
+	width: 100%;
+	height: 550px;
+	
+}
+
+#fpl{
+width: 35%;
+position: relative;
+}
+#fpltop{
+font-size: 350%;
+font-weight: 900;
+}
+
+.stylefpltop{
+	line-height: 60px;
+}
+
+.genformtext{
+	outline: none;
+	background: #ffff;
+	width: 100%;
+	height: 100%;
+	padding: 10%;
+	font-size: 130%;
+	border: none;
+	box-shadow: 0px 0px 20px rgba(172,155,155,.2);
+}
+#fplbottom{
+	width: 100%;
+	position: relative;
+}
+#fplbwrapper{
+	width: 120%;
+    position: absolute;
+    margin: -50px;
+    z-index: 10;
+}
+
+#fplbform{
+	width: 80%;
+	height: 100px;
+
+}
+
+#fplbutton{
+	width: 20%;
+	height: 100px;
+}
+#gostyle{
+	width: 100%;
+	height: 100%;
+	color: #000;
+	border: none;
+	background: #97c680;
+	font-size: x-large;
+    font-weight: 500;
+    transition: all linear .3s;
+    box-shadow: inset 0 0 0 0 #feba88;
+}
+#gostyle:hover{
+	box-shadow: inset 0 -100px 0 0 #feba88;
+}
+
+
+#fpr{
+    width: 65%;
+    position: relative;
+}
+
+#img1{
+     width: 50%;
+     height:550px;
+     background-image: url(img1.jpeg);
+     background-position: top;
+     border-radius: 20px;
+     transition: all linear .3s;
+     position: relative;
+}
+
+#img2{
+     width: 20%;
+     height:550px;
+     background-image: url(img2.jpeg);
+     background-position: top;
+     border-radius: 20px;
+     transition: all linear .3s;
+     position: relative;
+}
+
+
+
+#write{
+	position:absolute;
+}
+
+
+#write2{
+	position:absolute;
+}
+
+
+#secondTitle{
+    width: 100%;
+  
+}
+
+#tc1{
+	position: absolute;
+    bottom: 70px;
+}
+
+#tc2{
+	position: absolute;
+    bottom: 70px;
+}
+#tc3{
+	position: absolute;
+    bottom: 70px;
+}
+
+
+#img3{
+     width:20%;
+     height:550px;
+     background-image: url(img3.jpeg);
+     background-position: top;
+     border-radius: 20px;
+  transition: all linear .3s;
+  position: relative;
+}
+
+.titlecover{
+	width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#title1{
+	width: 40%;
+    line-height: 47px;
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+    padding-left: 50px;
+}
+
+#title2{
+	width: 25%;
+    color: #fff;
+    line-height: 31px;
+    text-align: center;
+    padding-right: 150px;
+    padding-top: 15px;
+}
+
+#hundred{
+    font-size: 52px;
+    text-align: center;
+    color: #fff;
+}
+#topics{
+    font-size: 19px;
+    text-align: center;
+    line-height: 22px;
+    padding: 17px;
+    color: #fff;
+}
+
+.imgstyle{
+	font-size: 35px;
+    color: #fff;
+    transform: rotate(-90deg);
+}
+.genImg{
+	background-attachment: scroll;
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.gradiantstyle{
+	width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    padding-bottom: 41px;
+    background-image: linear-gradient(175deg,transparent 50%,rgba(0,0,0,.8));
+    border-radius: 20px;
+}
+#categories{
+	width: 100%;
+	height: auto;
+	padding: 100px 0px;
+
+}
+#catheader{
+	font-size: 250%;
+	text-align:center;
+}
+#catmenu{
+	width: 70%;
+	margin: 50px auto;
+}
+
+
+
+.stylemenulink{
+	color: #333;
+	border-bottom: 2px solid #fff; 
+	transition: all linear .3s;
+	cursor: pointer;
+}
+.stylemenulink:hover{
+	border-bottom: 2px solid #fff;
+}
+#catlist{
+
+}
+#catInner{
+	width: 23%;
+	cursor: pointer;
+}
+#cattimg{
+	border-radius: 20px;
+}
+#catTitle{
+	font-size: 30px;
+	margin-top: 10px 0px;
+}
+
+#catInner:hover #catTitle{
+	color: green;
+}
+
+#skills{
+	width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+#skiLeft{
+	width: 30%;
+    height: 200px;
+    font-size: 43px;
+    font-weight: 400;
+}
+
+#skiRight{
+	width: 49%;
+    font-size: 20px;
+    padding-right: 170px;
+    font-weight: 100;
+}
+
+#skillBottom{
+	width: 100%;
+	height: 500px;
+}
+
+#skillBleft{
+	width: 25%;
+}
+
+
+.fontstyle{
+	font-size: 23px;
+    font-weight: bold; 
+}
+
+.icon{
+	width: 65px;
+    height: 60px;
+    background-color: cornsilk;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+}
+#iconWriteup{
+	width: 65%
+}
+
+#skillright{
+	width: 70%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+}
+#videoBox{
+	width: 100%;
+    border-radius: 45px;
+}
+
+
+
+#skill_header{
+	width: 58%;
+    height: 125px;
+    background-color: #97c680;
+    position: absolute;
+    margin-top: -57px;
+}
+
+#skillHeaderCover{
+	padding: 27px;
+}
+
+#headerLeft{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 25px;
+
+}
+#ten{
+	font-size: 52px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+#headerRightCover{
+	border-left-style: solid;
+	width: 50%;
+}
+
+
+#headerRight{
+	width: 100%;
+	padding-right: 30px;
+}
+#yearCover{
+	font-weight: bold;
+    padding-top: 14px;
+}
+
+#twofifty{
+	font-size: 52px;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+#customers{
+    width: 100%;
+    height: auto;
+    margin: 100px 0px;
+}
+#custH{ 
+	font-size: 270%;
+	text-align: center;
+}
+
+#custWrapper{
+	width: 100%;
+    height: auto;
+    margin-top: 45px;
+    overflow-x: scroll;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+
+.customerCardstyle{
+    width: 30%;
+    min-width: 20%;
+    margin-right: 20px;
+    height: 240px;
+    background-color: beige;
+    border-radius: 20px;  
+}
+
+#cardHolder{
+	width: 100%;
+	padding: 20px;
+	height: 240px;
+}
+.cardDownflex{
+	display: flex;
+	flex-direction: row;
+	height: 60px;
+}
+
+#cardDownL{
+    width: 28%;
+    border-radius: 100px;
+    background-color: black;
+}
+
+
+
+
+ #cardDownR{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+#rank{
+	    color: #97c680;
+    margin-top: 10px;
+}
+
+
+
+#fplHolder{
+
+height: 500px;
+position: absolute;
+width: 100%;
+top: 200px;
+transition:all cubic-bezier(0.4, 0, 0.2, 1) .50s;
+}
+#fprHolder{
+    width: 100%;
+    position: absolute;
+    right: 250px;
+    transition: all cubic-bezier(0.4, 0, 0.2, 1) .60s;
+}
+
+#CatAllCategory{
+width: 100%;
+}
+
+#CatAllCategory2{
+width: 100%;
+}
+#CatAllCategory3{
+width: 100%;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
